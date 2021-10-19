@@ -9,6 +9,22 @@ var QuestionsJson = [{
 {
   "question": "What is the Iterative Design Method?",
   "answer": "Short cycles of design, prototype, evaluation"
+},
+{
+  "question": "What are slips?",
+  "answer": "Mistakes with the right goal, Wrong action. very common. Typos and automatic behaviours."
+},
+{
+  "question": "Mode error is a type of _______ error.",
+  "answer": "Slip."
+},
+{
+  "question": "What is a Quasimode error?",
+  "answer": "Active application as long as the user is performing a conscious action, e.g., keeping a key pressed."
+},
+{
+  "question": "Name two types of slip errors",
+  "answer":"Capture errors: Frequently done activity takes over. Description/Similarity Slip: Ex. Flipping wrong switch. Data-driven errors: Ex. Call a secretary to reserve a room, dial room number. Associative activation: Ex. Office phone rings, but say “come in”. Loss of activation:"
 }];
 
 function generateRandomIndex(maxIndex){
