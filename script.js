@@ -33,6 +33,38 @@ var QuestionsJson = [{
 {
   "question": "Name two types of data collection methods for diary studies and experience sampling.",
   "answer":"interval-based: record data at a particular time each day, signal-based: record when told to. Event-based: record after a specified event."
+},
+{
+  "question": "What is triangulation?",
+  "answer":"The use of multiple approaches to converge and confirm emerging findings. Methods: Multiple-sources, multiple-methods, multiple-investigators, multiple theories."
+},
+{
+  "question": "What is a design pattern?",
+  "answer":"Proven designs that can be reused to satisfy design problems with good solutions."
+},
+{
+  "question": "What are some differences between pattern and guidelines?",
+  "answer":"Patterns tend to be more specific. Guidlines offer higher-level information. Patterns tend to be nouns/tangible things (ex. Nav bar)."
+},
+{
+  "question": "The DOM is Static. True or False?",
+  "answer":"False."
+},
+{
+  "question": "How are GUIs roughly organized?",
+  "answer":"WIMP: Windows, Icons, Menus, Pointers"
+},
+{
+  "question": "Name 2 terms for highly reusable interactive components.",
+  "answer":"Widgets, controls, components, interactors."
+},
+{
+  "question": "What is event-driven programming?",
+  "answer":"Input from user is handled as events."
+},
+{
+  "question": "What are the advantages of the MVC model?",
+  "answer":"Loose coupling, separation of concerns, reusable. Useful for organizing at a small scale (widgets) and large scale. many frameworks also follow these guidelines."
 }];
 
 function generateRandomIndex(maxIndex){
@@ -48,6 +80,7 @@ function onLoad() {
     // fill in code
     console.log(QandA.answer);
     document.getElementById("question").innerText = QandA.question;
+    document.getElementById("answer").style.color = "white";
     document.getElementById("answer").innerText = QandA.answer;
   }
   function showAnswer() {
