@@ -160,7 +160,7 @@ var QuestionsJson = [{
 },
 {
   "question": "What does Don Norman say, in the first chapter of his book, are the most important characteristics of good design?",
-  "answer": "Discoverability and usability."
+  "answer": "Discoverability and understandability."
 }];
 
 function generateRandomIndex(maxIndex){
