@@ -65,6 +65,66 @@ var QuestionsJson = [{
 {
   "question": "What are the advantages of the MVC model?",
   "answer":"Loose coupling, separation of concerns, reusable. Useful for organizing at a small scale (widgets) and large scale. many frameworks also follow these guidelines."
+},
+{
+  "question": "Describe the gulf of evaluation.",
+  "answer":"It is the gap between the user's understanding of how the system works vs. how the system actually works."
+},
+{
+  "question": "What is the Human Processor model?",
+  "answer":"Sees the human as an information processor. Perceptual system, motor system, cognitive system."
+},
+{
+  "question": "About what percent of males and females are color blind?",
+  "answer":"about 8% of men and .05% of women."
+},
+{
+  "question": "What are two types of memories (cognitive processors)?",
+  "answer":"Short term memory + Long term memory"
+},
+{
+  "question": "What are three ways to improve Fitts law",
+  "answer":"Placing buttons on sides makes it infinite width and thus easier to hit. Larger labels are easier to hit. Spacing between icons make them easier to hit. Avoid pointing tasks altogether: Keyboard shortcuts, Mouse Wheel, Snapping"
+},
+{
+  "question": "Every System has Three Different Mental Models. What are they?",
+  "answer":"Design Model - How you, the designer, intend the system to work. System Image - Your Implementation. User Model - How users think the system works"
+},
+{
+  "question": "What are affordances?",
+  "answer":"Clues to their operation that are readily apparent. Often visual."
+},
+{
+  "question": "Give an example of mapping controls.",
+  "answer":"Ex: Stove top. How do we map the buttons to the stove? Maybe the stoves are not in a 2 by 2 grid. Instead the are in a single row. Buttons are directly below. The mapping is clear: users clearly know which buttons control what stovetop."
+},
+{
+  "question": "Why are metaphors sometimes not the best visualization technique",
+  "answer":"Metaphor may be depreciated(ex. floppy disk) or too literal (ex. I-books previous UI)."
+},
+{
+  "question": "What is a Skeuomorphic Interface?",
+  "answer":"graphical user interface designed to describe interface objects that mimic their real-world counterparts(metaphors)."
+},
+{
+  "question": "Name 3 interaction techniques.",
+  "answer": "Pointing tasks, Text input, Voice input, touch, tilting."
+},
+{
+  "question": "Name 2 output techniques.",
+  "answer": "Zooming. Overlays. Detail inspection."
+},
+{
+  "question": "How quick does something need to be to feel like 'instant response'?",
+  "answer": "100ms."
+},
+{
+  "question": "What is a good and bad response time?",
+  "answer": "2 seconds = good. 10-15 = bad."
+},
+{
+  "question": "How much faster does your site need to be to have an advantage over competiters?",
+  "answer": "250 ms."
 }];
 
 function generateRandomIndex(maxIndex){
