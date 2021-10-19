@@ -125,6 +125,42 @@ var QuestionsJson = [{
 {
   "question": "How much faster does your site need to be to have an advantage over competiters?",
   "answer": "250 ms."
+},
+{
+  "question": "What is REST?",
+  "answer": "REpresentational State Transfer (REST). Describes architectural style of the web, i.e., describes the systems on a high-level."
+},
+{
+  "question": "Name the steps to a user study with regards to ethical concerns.",
+  "answer": "You must alleviate stress. Avoid pressuring the participant. Let them know they can quit. Anonymize data."
+},
+{
+  "question": "Name the steps to a user study.",
+  "answer": "Describe the purpose. Tell them you are testing the product, not them. Tell them they can quit anytime. Demonstrate how to use equipment. Explain how to do a think aloud. Explain you will not provide help. Explain basic concept of UI. Describe the task."
+},
+{
+  "question": "What does light travel through in the human eye?",
+  "answer": "cornea →crystalline lens →retina"
+},
+{
+  "question": "What does the iris do in the human eye?",
+  "answer": "It controls the amount of light that passes through"
+},
+{
+  "question": "What does the optic nerve do?",
+  "answer": "Transfers processed light to the visual cortex"
+},
+{
+  "question": "What is the Fovea?",
+  "answer": "Center of the retina. Has the most cones"
+},
+{
+  "question": "What is the Value of the a color?",
+  "answer": "describes overall intensity to how light or dark a color is.It is the only dimension of color that may exist by itself."
+},
+{
+  "question": "What does Don Norman say, in the first chapter of his book, are the most important characteristics of good design?",
+  "answer": "Discoverability and usability."
 }];
 
 function generateRandomIndex(maxIndex){
