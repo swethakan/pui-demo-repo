@@ -247,20 +247,76 @@ var QuestionsJson = [{
   "answer": "1) Mean Absolute Error + Mean Squared Error. <br>2) Confusion Matrix. <br>3) accuracy- what did we get right? <br>4) Precision - how many of predicted true was actually true <br>5) Recall - focus on actual positives over predicted positives.(Probability of prediction)<br>6) ROC Curve"
 },
 {
+  "question": "What are advantages to machine learning?",
+  "answer": "Addresses the problem of too much data. Offers solutions to longstanding hard problems. Enables new kinds of UX. Potential for reducing human bias. Increased accuracy. Process big data."
+},
+{
+  "question": "What is machine learning?",
+  "answer": "Subfield of AI getting most attention due to big advances."
+},
+{
+  "question": "What is the 5-step approuch to machine learning?",
+  "answer": "Step 1: Get lots of data <br> Step 2: Figure out useful features <br>Step 3: Select and train the ML algorithm<br>Step 4: Evaluate metrics (and iterate)<br>Step 5: Deploy"
+},
+{
+  "question": "What are 2 classes of machine learning algorithms?",
+  "answer": "1. Supervised algorithms - You have ground truth labels (e.g. spam vs ham)<br>2. Unsupervised algorithms - Typically clustering things together. Generally, unsupervised harder, active area of research."
+},
+{
+  "question": "What is regression as it relates to machine learning?",
+  "answer": "Predicting a continuous value based on inputs (example: house price based on bedrooms, bathrooms, square footage, etc."
+},
+{
+  "question": "What is classification as it relates to machine learning?",
+  "answer": "Predicting from a set of categories. (Ex: Spam vs Ham?). Lots of variants"
+},
+{
+  "question": "Decision Trees and SVMs are two examples of ___________",
+  "answer": "Supervised classifiers"
+},
+{
+  "question": "What is 'overfitting'?",
+  "answer": "When your ML model is too specific for the data you have. ML model tuned too much to work well for your data, may not work for real-world data. This is one of the most common problems for ML. Bad for the generalizability of your results, cross validation is a common technique to mitigate"
+},
+{
+  "question": "What are some ways to avoid 'overfitting' in ML models?",
+  "answer": "Train model on training set, and test on test set. Often does through cross validation. 5-fold cross validation - train on everything except 1 set of data."
+},
+{
+  "question": "When evaluating the effectiveness of your ML model, what is Prior Probabilities?",
+  "answer": "Probability before any observations (i.e. just guessing). Your trained model needs to do better than prior."
+},
+{
+  "question": "What are some tools to help Evaluate Effectiveness of an ML model?",
+  "answer": "1. Mean Absolute Error / Mean Squared Error <br>2. Accuracy<br>3. False positives / False negatives<br>4. Precision / Recall<br>5. Confusion matrix<br>6. Receiver Operating Characteristic (ROC)."
+},
+{
   "question": "What is a Confusion Matrix?",
   "answer": "A huge table of positive and negative predictions and results. Has all the data listed. Used to assess Accuracy, Precision, and recall."
 },
 {
   "question": "What is a ROC curve?",
-  "answer": "Reciever Operating Characteristic. Used to Assess Recall and false positive rate. you'ce want to have a curve that goes stright up and right."
+  "answer": "Reciever Operating Characteristic. Used to Assess Recall and false positive rate. You'll want to have a curve that goes stright up and curves to the right."
 },
 {
   "question": "What is recall a good metric for?",
   "answer": "When it is ok to get some false positives but harder to recieve false negatives (example: Cancer diagnosis)"
 },
 {
+  "question": "What is accuracy a good metric for?",
+  "answer": "When it is ok to get some false positives and false negatives but want to prioritize getting true positives and negatives"
+},
+{
   "question": "What is precision a good metric for?",
   "answer": "When it is ok to get some false negatives but harder to recieve false positives"
+},
+{
+  "question": "What are some ways to label large datasets?",
+  "answer": "Crowdsource. Machine Turks. Get users to label things for you. Get data as a side effect of things users already do (example: likes, captcha, search engine clicks). Make it fun or meaningful."
+},
+{
+  "question": "What are first 11 guidelines for Human-AI Interaction?",
+  "answer": "1) Make clear what the system can do<br>2) Make clear how well the system can do what it can do<br>3) Time Services Based on Context(ex. clippy)<br>4) Show Contextually Relevant Info<br>5) Match Relevant Social Norms<br>6) Mitigate Social Biases<br>7) Support Efficient Invocation<br>8) Support Efficient Dismissal<br>9)Support Efficient Correction<br>10) Scope Services When in Doubt<br>11) Make Clear Why System Did What it Did"
 },
 {
   "question": "What is Information Visualization?",
@@ -316,9 +372,9 @@ function onLoad() {
     var QandA = generateRandomQuestion();
     // fill in code
     console.log(QandA.answer);
-    document.getElementById("question").innerText = QandA.question;
+    document.getElementById("question").innerHTML = QandA.question;
     document.getElementById("answer").style.color = "white";
-    document.getElementById("answer").innerText = QandA.answer;
+    document.getElementById("answer").innerHTML = QandA.answer;
   }
   function showAnswer() {
     document.getElementById("answer").style.color = "black";
