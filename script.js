@@ -357,6 +357,30 @@ var QuestionsJson = [{
 {
   "question": "What is a problem with Multidimensional Data in info viz?",
   "answer": "You cannot plot it easily using standard charts like bar charts."
+},
+{
+  "question": "What is FATE?",
+  "answer": "Fairness Accountability Transparency Ethics. Bias in a system is an often hidden ethical issue."
+},
+{
+  "question": "What are some Possible Sources of Harmful Biases?",
+  "answer": "How data was collected / sampled. Bias in the data itself. Reflects biases that exist in society. Blindspots of the product team (“Unknown unknowns”). Categories you choose for your system."
+},
+{
+  "question": "What are 2 types of harmful biases?",
+  "answer": "1) Allocative Harms - Resources are allocated unfairly<br>2) Representational Harms - Promotes offensive / negative views of a group."
+},
+{
+  "question": "What are 5 types of Representational Harms?",
+  "answer": "1) Stereotypes <br>2) Recognition<br>3) Denigration<br>4) Under-representation<br>Exnomination - Implicitly making something the 'norm', which can reinforce power"
+},
+{
+  "question": "What are some good graphics techniques for presentations?",
+  "answer": "Cropping well. Be sparse. Matting(removal of BG). Camera angle. Charts(avoid busy ones, however). Labels (on photos, graphs, etc). Line drawings. Uniformity (make a stencil). Consistent overlays."
+},
+{
+  "question": "What is Abstraction?",
+  "answer": "Reducing the information content of a concept or an observable phenomenon, typically to retain only information which is relevant for a particular purpose."
 }];
 
 
