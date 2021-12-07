@@ -161,7 +161,148 @@ var QuestionsJson = [{
 {
   "question": "What does Don Norman say, in the first chapter of his book, are the most important characteristics of good design?",
   "answer": "Discoverability and understandability."
+},
+{
+  "question": "What does brushing and linking mean?",
+  "answer": "Brushing is selecting subset of Data. Linking means showing how the data behaves in each plot based on the filter applied by brushing"
+},
+{
+  "question": "What are parrallel coordinate charts typically used for?",
+  "answer": "High-dimentional data."
+},
+{
+  "question": "What are benefits to using animations in your GUI?",
+  "answer": "Animations can reinforce mental models. Make transitions less jarring. Increases appeal. Provides visual continuity. Pre-action affordances. Post-action feedback."
+},
+{
+  "question": "What is the principal of Solidity?",
+  "answer": "Make objects appear to be solid(by using principals squash and Stretch, motion blur, arrivals and departures(Rather than simply appearing or disappearing, have smooth easing on and off the screen)"
+},
+{
+  "question": "What is the principal of Exaggeration?",
+  "answer": "Exaggerate certain actions to enhance perception by using the Anitcipation principal( small counter movement just prior to the main movement). "
+},
+{
+  "question": "What is the principal of Reinforcement?",
+  "answer": "Effects to drive home feeling of reality such as Slow in and slow out, Arcs, and Follow through(Loosely tied parts should continue moving after the character has stopped)."
+},
+{
+  "question": "What is the medical model of disability?",
+  "answer": "Implies Disability is the responsibility of individuals. Relies solely on medical systems to provide access. Historically used to justify extremes."
+},
+{
+  "question": "What is the social model of disability?",
+  "answer": "Responsibility of society to adapt to be accessible. Ignores the relationship between health, disease, and disability. Separates different types of disability based on barrier."
+},
+{
+  "question": "What is the Identity and Diversity Model of disability?",
+  "answer": "Embraces Disability as a Complex (good and bad) lived experience. A bit of both social and medical models"
+},
+{
+  "question": "What is Machine learning?",
+  "answer": "Algorithms that are good at recognizing patterns in large amounts of data."
+},
+{
+  "question": "What is the Identity and Diversity Model of disability?",
+  "answer": "Embraces Disability as a Complex (good and bad) lived experience. A bit of both social and medical models"
+},
+{
+  "question": "What are some 'bad words' for disability??",
+  "answer": "Handicapped, ‘cripple’ or ‘crip’, ‘suffering from / victim of ...’, ‘deficient’/ ‘deviant’, ‘Wheelchair bound’, ‘epileptics’, ‘diabetics’, etc."
+},
+{
+  "question": "Accessibility is not _________",
+  "answer": "Usability."
+},
+{
+  "question": "What are some DOs of accessible design?",
+  "answer": "Make Accessibility a constant priority. Include disabled people in the design process. Compensate accordingly."
+},
+{
+  "question": "What are some DONTs of accessible design?",
+  "answer": "Assume disabled people can’t use your technology. Simulate disability. Only Use standards as a checklist. Rely on expensive accommodations."
+},
+{
+  "question": "What are Assistive Technologies?",
+  "answer": "products, equipment, and systems that enhance learning, working, and daily living for persons with disabilities. "
+},
+{
+  "question": "What are some assistive technologies for different areas of disabilities?",
+  "answer": "Visual - Screen Readers. Auditory - Captions, Sign Language interpretation. Motor - Eye trackers, adaptive buttons. Cognitive - Simple language, consistent navigation, color choice, symbols."
+},
+{
+  "question": "What is Section 508?",
+  "answer": "Section 508 of the US Rehabilitation Act (1973) requires all electronic and info technologies purchased by the U.S. govt  to be accessible. Includes web sites used by the Federal govt "
+},
+{
+  "question": "What are the 4 principles of the Web Content Accessibility Guidelines (WCAG)?",
+  "answer": "Perceivable. Operable. Understandable. Robust."
+},
+{
+  "question": "What is the Text Equivalence Concept?",
+  "answer": "Accompany as much of your Web content—including images, audio, and movies—with plain text, since text is highly accessible"
+},
+{
+  "question": "How do you evaluate the effectiveness of machine learning algorithms?",
+  "answer": "1) Mean Absolute Error + Mean Squared Error. <br>2) Confusion Matrix. <br>3) accuracy- what did we get right? <br>4) Precision - how many of predicted true was actually true <br>5) Recall - focus on actual positives over predicted positives.(Probability of prediction)<br>6) ROC Curve"
+},
+{
+  "question": "What is a Confusion Matrix?",
+  "answer": "A huge table of positive and negative predictions and results. Has all the data listed. Used to assess Accuracy, Precision, and recall."
+},
+{
+  "question": "What is a ROC curve?",
+  "answer": "Reciever Operating Characteristic. Used to Assess Recall and false positive rate. you'ce want to have a curve that goes stright up and right."
+},
+{
+  "question": "What is recall a good metric for?",
+  "answer": "When it is ok to get some false positives but harder to recieve false negatives (example: Cancer diagnosis)"
+},
+{
+  "question": "What is precision a good metric for?",
+  "answer": "When it is ok to get some false negatives but harder to recieve false positives"
+},
+{
+  "question": "What is Information Visualization?",
+  "answer": "The use of computer-supported, interactive visual representations of data to amplify cognition."
+},
+{
+  "question": "What is an appropriate use of color in Information Visualization?",
+  "answer": "When mapping colors, better to modify saturation and value vs hue (in HSV). A red flag is rainbow colors. "
+},
+{
+  "question": "What are some variables you can manipulate in data viz?",
+  "answer": "Size, Value, Orientation, Texture, Shape, Position (2D / 3D)"
+},
+{
+  "question": "What are some uses of info viz?",
+  "answer": "Exploratory: Help us analyze and reason. <br>Explanatory: Help explain or persuade others. <br>Aesthetics"
+},
+{
+  "question": "All visualizations have ________",
+  "answer": "Tradeoffs (example: election maps)"
+},
+{
+  "question": "What are some tools to help focus + context in info viz?",
+  "answer": "TableLens, DateLens, Fisheye Views"
+},
+{
+  "question": "What are are characteristics of unuseful info viz?",
+  "answer": "Data blob: too much granular info. Viz that are misread(hurricane maps). Unneeded into (towing sign)"
+},
+{
+  "question": "What are are characteristics of BAD info viz?",
+  "answer": "Axises don't start at 0. Axis skips years/ counts with no indication that it is doing so. Too many keys to remember. 3D visualizations. Rainbow spectrum"
+},
+{
+  "question": "What are are characteristics of GOOD info viz?",
+  "answer": "Values sorted from greatest to least or vice versa. Pick good scales."
+},
+{
+  "question": "What is a problem with Multidimensional Data in info viz?",
+  "answer": "You cannot plot it easily using standard charts like bar charts."
 }];
+
 
 function generateRandomIndex(maxIndex){
       return Math.floor(Math.random() * maxIndex);
