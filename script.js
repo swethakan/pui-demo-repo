@@ -381,6 +381,14 @@ var QuestionsJson = [{
 {
   "question": "What are top reasons start-ups fail?",
   "answer": "Failure to pivot, Bad leadership, No market need (build something no one cares about), Run out of cash, Market need and running out of cash go hand in hand, Poor product, Ignore customers"
+},
+{
+  "question": "Describe the 5 factors in the Diffusion of Innovations",
+  "answer": "Relative Advantage(How much better over what already exists?)<br>Trialability(How easy is it to try?)<br>Complexity(How difficult/confusing is it?)<br>Compatibility(How well fits into person’s needs, usage, beliefs)<br>Observability(Easy to see others gaining value)"
+},
+{
+  "question": "About what percent of the world has a disability?",
+  "answer": "13%"
 }];
 
 

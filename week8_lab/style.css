@@ -4,3 +4,6 @@ img{
 body{
     text-align:center;
 }
+button{
+    display: none;
+}

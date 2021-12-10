@@ -11,3 +11,12 @@ p{color:white;}
 button{
     padding:20px;
 }
+h3{
+    color:red;
+}
+.h3{
+    color:green;
+}
+#h3{
+    color:blue;
+}
