@@ -200,7 +200,7 @@ var QuestionsJson = [{
 },
 {
   "question": "What is Machine learning?",
-  "answer": "Algorithms that are good at recognizing patterns in large amounts of data."
+  "answer": "Algorithms that are good at recognizing patterns in large amounts of data. Subfield of AI getting most attention due to big advances."
 },
 {
   "question": "What is the Identity and Diversity Model of disability?",
@@ -251,10 +251,6 @@ var QuestionsJson = [{
   "answer": "Addresses the problem of too much data. Offers solutions to longstanding hard problems. Enables new kinds of UX. Potential for reducing human bias. Increased accuracy. Process big data."
 },
 {
-  "question": "What is machine learning?",
-  "answer": "Subfield of AI getting most attention due to big advances."
-},
-{
   "question": "What is the 5-step approuch to machine learning?",
   "answer": "Step 1: Get lots of data <br> Step 2: Figure out useful features <br>Step 3: Select and train the ML algorithm<br>Step 4: Evaluate metrics (and iterate)<br>Step 5: Deploy"
 },
@@ -271,7 +267,7 @@ var QuestionsJson = [{
   "answer": "Predicting from a set of categories. (Ex: Spam vs Ham?). Lots of variants"
 },
 {
-  "question": "Decision Trees and SVMs are two examples of ___________",
+  "question": "Decision Trees and (Support Vector Machine)SVMs are two examples of ___________",
   "answer": "Supervised classifiers"
 },
 {
@@ -339,12 +335,12 @@ var QuestionsJson = [{
   "answer": "Tradeoffs (example: election maps)"
 },
 {
-  "question": "What are some tools to help focus + context in info viz?",
+  "question": "What are some tools to help focus + context(allocate the pixels on the screen in the most meaningful way) in info viz?",
   "answer": "TableLens, DateLens, Fisheye Views"
 },
 {
   "question": "What are are characteristics of unuseful info viz?",
-  "answer": "Data blob: too much granular info. Viz that are misread(hurricane maps). Unneeded into (towing sign)"
+  "answer": "Data blob: too much granular info. Viz that are misread(hurricane maps). Unneeded information (towing sign)"
 },
 {
   "question": "What are are characteristics of BAD info viz?",
@@ -363,7 +359,7 @@ var QuestionsJson = [{
   "answer": "Fairness Accountability Transparency Ethics. Bias in a system is an often hidden ethical issue."
 },
 {
-  "question": "What are some Possible Sources of Harmful Biases?",
+  "question": "What are some Possible Sources of Harmful Biases in machine learning?",
   "answer": "How data was collected / sampled. Bias in the data itself. Reflects biases that exist in society. Blindspots of the product team (“Unknown unknowns”). Categories you choose for your system."
 },
 {
@@ -372,7 +368,7 @@ var QuestionsJson = [{
 },
 {
   "question": "What are 5 types of Representational Harms?",
-  "answer": "1) Stereotypes <br>2) Recognition<br>3) Denigration<br>4) Under-representation<br>Exnomination - Implicitly making something the 'norm', which can reinforce power"
+  "answer": "1) Stereotypes <br>2) Recognition(computers can't understand people who aren't white)<br>3) Denigration(ex: labelling black people as apes)<br>4) Under-representation<br>5) Exnomination - Implicitly making something the 'norm', which can reinforce power"
 },
 {
   "question": "What are some good graphics techniques for presentations?",
@@ -381,6 +377,10 @@ var QuestionsJson = [{
 {
   "question": "What is Abstraction?",
   "answer": "Reducing the information content of a concept or an observable phenomenon, typically to retain only information which is relevant for a particular purpose."
+},
+{
+  "question": "What are top reasons start-ups fail?",
+  "answer": "Failure to pivot, Bad leadership, No market need (build something no one cares about), Run out of cash, Market need and running out of cash go hand in hand, Poor product, Ignore customers"
 }];
 
 
@@ -391,6 +391,8 @@ function generateRandomQuestion(){
     let index = generateRandomIndex(QuestionsJson.length);
     return QuestionsJson[index];
 }
+
+
 
 function onLoad() {
     var QandA = generateRandomQuestion();
